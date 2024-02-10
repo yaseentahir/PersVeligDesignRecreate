@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      data-n-head="ssr"
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PersVeilig-Dev</title>
+  </head>
+  <body>
+    <!-- <---Header---->
+    <div class="fixed-top">
+      <nav class="top-nav">
+        <div class="container top-nav-container">
+          <a href="/incident-melden.html" class="top-nav-btn"
+            ><i
+              aria-hidden="true"
+              class="fa fa-arrow-right"
+              data-v-f8db388a=""
+            ></i>
+            Meld
+            <span class="d-sm-inline" data-v-f8db388a=""> een</span>
+            incident
+          </a>
+        </div>
+      </nav>
+      <nav class="bottom-nav">
+        <div class="container bottom-nav-container">
+          <a
+            href="/"
+            aria-current="page"
+            class="navbar-brand nuxt-link-exact-active nuxt-link-active"
+            data-v-f8db388a=""
+            ><img
+              src="/images/PersVeiligLogo.976bd95.svg"
+              alt="PersVeilig logo"
+              class="img-fluid navbar-logo"
+              data-v-f8db388a=""
+          /></a>
+          <a href="/incident-melden.html" class="bottom-nav-btn">
+            Meld
+            <span class="d-sm-inline" data-v-f8db388a=""> een</span>
+            incident
+          </a>
+          <button class="navbar-toggler collapsed">
+            <div class="hamburger-toggle">
+              <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </button>
+          <div id="navbar-content" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="/veiligheidstrainingen.html" class="nav-link"
+                  >Veiligheids­trainingen</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle">Journalisten</a>
+                <ul class="dropdown-menu">
+                  <li class="sub-nav-item dropend">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Preventie</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Veiligheidstrainingen</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Interactieve training</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Veiligheidsmiddelen</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Perskaarten</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Verzekeringen</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Afscherming KvK</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Toolkit</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-nav-item dropend">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Ondersteuning</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Juridische ondersteuning</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item" data-v-f8db388a=""
+                          >Psychosociale ondersteuning</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle">Werkgevers</a>
+                <ul class="dropdown-menu">
+                  <li class="sub-nav-item dropend">
+                    <a href="#" class="dropdown-item">Veiligheidsplan</a>
+                  </li>
+                  <li class="sub-nav-item dropend">
+                    <a href="#" class="dropdown-item">Veiligheidstrainingen</a>
+                  </li>
+                  <li class="sub-nav-item dropend">
+                    <a href="#" class="dropdown-item">Toolkit</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle">Aangifte doen</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Wanneer doe je aangifte</a
+                    >
+                  </li>
+                  <li class="sub-nav-item dropend">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Bedreigingen</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item">Online bedreiging</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Doodsbedreiging</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Aanslag</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item"
+                          >Georganiseerde misdaad</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item"
+                          >Grote groepen mensen</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-nav-item dropend">
+                    <a href="#" class="dropdown-item dropdown-toggle">Geweld</a>
+                    <ul data-bs-popper="none" class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item">Intimidatie</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Afpersing</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Fysiek geweld</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Seksueel geweld</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Verbaal geweld</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Discriminatie</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Stalken</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Diefstal</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Vernieling</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle">Over PersVeilig</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#" class="dropdown-item">Onderzoek</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Financiering</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">PersVeilig in de media</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Analyse meldingen</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">FAQ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- <---Header---->
+
+    <!-- Body -->
+    <div style="padding-top: 106px" class="container">
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-inline breadcrumbs my-3">
+            <li class="list-inline-item">
+              <a href="/"> Home </a>
+              <span class="ms-2 caret">&gt;</span>
+            </li>
+            <li class="list-inline-item">
+              <span class="last-breadcrumb">Veiligheids­trainingen</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container subpage">
+      <div class="row">
+        <div class="col-md-3 p-3">
+          <h2 data-v-3e440923="" class="parent-title">
+            Veiligheids&shy;­trainingen
+          </h2>
+        </div>
+        <div class="col-md-9">
+          <div class="page-template-root">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <h1 class="mb-5">Veiligheidstrainingen</h1>
+                </div>
+              </div>
+            </div>
+            <div class="page-body container">
+              <p>
+                In samenwerking met de NVJ Academy ontwikkelt en geeft
+                PersVeilig verschillende gratis trainingen, onder andere voor
+                journalisten, studenten, werkgevers en leidinggevenden.&nbsp;
+              </p>
+              <h2>Ons aanbod</h2>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.nvj.nl/training-persveilig-journalisten"
+                    target="_blank"
+                    rel="noopener"
+                    >Training PersVeilig voor journalisten</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.nvj.nl/training-persveilig-leidinggevenden"
+                    target="_blank"
+                    rel="noopener"
+                    >Training PersVeilig voor leidinggevenden</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.nvj.nl/training-persveilig-online"
+                    target="_blank"
+                    rel="noopener"
+                    >Training PersVeilig online</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.nvj.nl/training-persveilig-social"
+                    target="_blank"
+                    rel="noopener"
+                    >Training PersVeilig op social</a
+                  >&nbsp;
+                </li>
+                <li>
+                  <a href="https://www.nvj.nl/workshop-persveilig-studenten"
+                    >Workshop PersVeilig voor studenten</a
+                  >
+                </li>
+              </ul>
+              <p>
+                Bovenstaande trainingen worden
+                <a
+                  href="https://www.nvj.nl/incompany-trainingen-0"
+                  target="_blank"
+                  rel="noopener"
+                  >incompany</a
+                >
+                gegeven.&nbsp;
+              </p>
+              <p>
+                De Training PersVeilig voor journalisten bieden we ook aan op
+                basis van
+                <a
+                  href="https://www.nvj.nl/nvj-academy-cursusoverzicht?keyword=persveilig&amp;sort_by=ds_field_datum_tijd_earliest_start"
+                  target="_blank"
+                  rel="noopener"
+                  >open inschrijving</a
+                >.
+              </p>
+              <p>
+                Freelance journalist Laila Frank volgde de training PersVeilig
+                voor journalisten: 'Ik vond dat het er heel veel persoonlijke
+                aandacht was'
+                <a href="https://www.persveilig.nl/interview-laila-frank"
+                  >Lees hier het interview</a
+                >.&nbsp;
+              </p>
+              <h2>Veilig werken</h2>
+              <p>
+                De trainingen zijn gevarieerd en duren een dag of een dagdeel.
+                Tijdens de training krijg je onder meer praktische tips om je
+                werk veiliger te kunnen doen, wissel je ervaringen met collega’s
+                uit en oefen je hoe je kunt omgaan met verschillende soorten
+                agressie.&nbsp;
+              </p>
+              <p>
+                Leidinggevenden en werkgevers leren onder meer hoe ze beleid
+                kunnen ontwikkelen op het gebied van veiligheid en hoe ze het
+                beste kunnen handelen wanneer medewerkers geconfronteerd worden
+                met agressie en dreiging – zowel online als offline.&nbsp;
+              </p>
+              <p>
+                <img
+                  src="https://next.prdn.nl/prodynamic-persveilig-prod/public/afbeeldingen/MJJ-Persveilig-4.jpg"
+                  alt=""
+                  width="300"
+                  height="200"
+                />
+              </p>
+              <p>
+                <em
+                  >Trainer Fenno Moes tijdens het rollenspel in de PersVeilig
+                  training voor journalisten (foto Marcel J. De Jong)</em
+                >
+              </p>
+              <h2>Interesse?&nbsp;</h2>
+              <p>
+                Ben je geïnteresseerd in het volgen of incompany organiseren van
+                een training of workshop? Stuur dan een mailtje aan
+                <a
+                  href="mailto:nvjacademy@nvj.nl"
+                  target="_blank"
+                  rel="noopener"
+                  >nvjacademy@nvj.nl</a
+                >
+                of vul <a href="/contact">het contactformulier</a> in.&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Body -->
+
+    <!-- Subfooter -->
+    <footer class="subfooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="d-flex">
+              <i
+                data-v-cfa26e5e=""
+                aria-hidden="true"
+                class="fa fa-long-arrow-right fa-2x me-3 links-arrow"
+              ></i>
+              <div class="links-col">
+                <h3>Lees ook</h3>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="https://www.nvj.nl/themas/veiligheid/persveilig/ik-kreeg-veiligheidstips-waar-ik-nooit-stil-had-gestaan"
+                      target="_blank"
+                      class="external"
+                    >
+                      Ik kreeg veiligheidstips waar ik nooit bij stil had
+                      gestaan
+                      <i
+                        data-v-cfa26e5e=""
+                        aria-hidden="true"
+                        class="ms-2 fa fa-external-link"
+                      ></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 offset-md-1">
+            <div class="d-flex pv-icons">
+              <div>
+                <img
+                  src="images/aggressie_icon_sm.4ee6d2a.png"
+                  class="pv-icon img-fluid"
+                />
+              </div>
+              <div>
+                <img
+                  src="/images/online_bedreigd_icon_sm.3fd6934.png"
+                  class="pv-icon img-fluid"
+                />
+              </div>
+              <div>
+                <img
+                  src="images/geweld_op_straat_icon_sm.bb259c9.png"
+                  class="pv-icon img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Subfooter -->
+
+    <!-- <---Footer---->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <div class="row">
+              <div class="col-md-8">
+                <h5><strong>Over PersVeilig</strong></h5>
+                <p>
+                  PersVeilig is een gezamenlijk initiatief van de NVJ, het
+                  Nederlands Genootschap van Hoofdredacteuren, de Politie en het
+                  Openbaar Ministerie en heeft tot doel de positie van
+                  journalisten te versterken tegen geweld en agressie op straat,
+                  op social media en tegen juridische claims.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="row footer-icons">
+                  <div class="col-6 col-sm-2 d-flex align-items-center">
+                    <img
+                      src="/images/nvj.7a5695a.svg"
+                      alt=""
+                      class="img-fluid pe-2 py-2"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-4 d-flex align-items-center">
+                    <img
+                      src="/images/ngh.c7e238d.svg"
+                      alt=""
+                      class="img-fluid pe-2 py-2"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-2 d-flex align-items-center">
+                    <img
+                      src="/images/politie.db99624.svg"
+                      alt=""
+                      class="img-fluid pe-2 py-2"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-2 d-flex align-items-center">
+                    <img
+                      src="/images/om.3be021c.svg"
+                      alt=""
+                      class="img-fluid pe-2 py-2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 offset-lg-1">
+            <ul class="list-inline text-links">
+              <li class="list-inline-item"><a href="#">Contact</a></li>
+              <li class="list-inline-item"><a href="#">Toolkit</a></li>
+              <li class="list-inline-item"><a href="#">Links</a></li>
+              <li class="list-inline-item"><a href="#">Privacy</a></li>
+            </ul>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i
+                    aria-hidden="true"
+                    class="fa fa-twitter"
+                    data-v-5d546646=""
+                  ></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i
+                    aria-hidden="true"
+                    class="fa fa-envelope-o"
+                    data-v-5d546646=""
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <---Footer---->
+
+    <script src="script.js"></script>
+  </body>
+</html>
